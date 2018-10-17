@@ -7,7 +7,7 @@ var array1 = ["a", "b", "c", "d"],
 for ( i = 0; i < l; i++) {
     result.push(array1[i], array2[i]);
 }
-// add the new array for the 
+// add the elements to the new array
 result.push(...array1.slice(l), ...array2.slice(l));
 // print the result to the console
 console.log(result);
